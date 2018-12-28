@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Early
+//  Prom
 //
-//  Created by annotations on 12/28/18.
+//  Created by annotations on 12/20/18.
 //  Copyright © 2018 Prom. All rights reserved.
 //
 
@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("The fsdfsdfsdfsdfs")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
