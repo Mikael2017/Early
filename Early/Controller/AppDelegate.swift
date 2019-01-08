@@ -1,13 +1,9 @@
-//
 //  AppDelegate.swift
 //  Prom
-//
 //  Created by annotations on 12/20/18.
 //  Copyright © 2018 Prom. All rights reserved.
-//
-
 import UIKit
-//import Firebase
+import Firebase
 import CoreData
 
 @UIApplicationMain
@@ -17,9 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        //FirebaseApp.configure()
-        /*PromDatabase = Database.database().reference()
-        PromDatabase.setValue("fddfgfd")  */
+        FirebaseApp.configure()
+        //newDatabase = Database.database().reference()
+        //Database.setValue("fddfgfd")
         // Override point for customization after application launch.
         return true
     }
