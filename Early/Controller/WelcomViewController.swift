@@ -1,10 +1,6 @@
 //
-//  ViewController.swift
-//  Prom
-//
 //  Created by annotations on 12/20/18.
-//  Copyright © 2018 Prom. All rights reserved.
-//
+//  Copyright © Mikael. All rights reserved.
 
 import UIKit
 
