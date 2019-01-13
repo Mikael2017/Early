@@ -1,28 +1,29 @@
-//  LoginViewController.swift
-//  Early
-//  Created by annotations on 12/28/18.
-//  Copyright © 2018 Prom. All rights reserved.
-//
-
 import UIKit
+import Firebase
 
 class LoginViewController: UIViewController {
-
+    
+    @IBOutlet weak var emailTextfiled: UITextField!
+    @IBOutlet weak var passwordTextfiled: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+   
+@IBAction func LoginPressed(_ sender: UIButton) {
+    Auth.auth().signIn(withEmail: emailTextfiled.text!, password : passwordTextfiled.text!) { (user, error) in
+            if error != nil {
+                print(error!)
+            }
+            else {
+                print("Log in successful!")
+                self.performSegue(withIdentifier: "toLanding2", sender: self)
+            }
+        }
     }
-    */
-
+    
 }
+
+
+
