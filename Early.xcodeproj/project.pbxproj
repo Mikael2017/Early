@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962C59F821E47C6C0043F70D /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C59F721E47C6C0043F70D /* LogoutViewController.swift */; };
+		962C59FA21E5084F0043F70D /* soundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C59F921E5084F0043F70D /* soundsViewController.swift */; };
 		967FA97E21D5DCF9000C0466 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967FA97D21D5DCF9000C0466 /* LoginViewController.swift */; };
 		967FA98021D5DD28000C0466 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */; };
 		96E276F921D5AFAA00693EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F221D5AFA900693EA5 /* LaunchScreen.storyboard */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		78CC0677363445BA306003C1 /* Pods_Early.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Early.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962C59F721E47C6C0043F70D /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		962C59F921E5084F0043F70D /* soundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundsViewController.swift; sourceTree = "<group>"; };
 		967FA97D21D5DCF9000C0466 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		96E276DD21D5AE3400693EA5 /* Early.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Early.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,8 @@
 				96E276F621D5AFAA00693EA5 /* WelcomViewController.swift */,
 				967FA97D21D5DCF9000C0466 /* LoginViewController.swift */,
 				967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */,
+				962C59F721E47C6C0043F70D /* LogoutViewController.swift */,
+				962C59F921E5084F0043F70D /* soundsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,9 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962C59FA21E5084F0043F70D /* soundsViewController.swift in Sources */,
 				967FA97E21D5DCF9000C0466 /* LoginViewController.swift in Sources */,
 				96E276FF21D5AFAA00693EA5 /* AppDelegate.swift in Sources */,
 				967FA98021D5DD28000C0466 /* RegistrationViewController.swift in Sources */,
+				962C59F821E47C6C0043F70D /* LogoutViewController.swift in Sources */,
 				96E276FD21D5AFAA00693EA5 /* WelcomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
