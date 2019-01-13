@@ -1,5 +1,4 @@
 //  AppDelegate.swift
-//  Prom
 //  Created by annotations on 12/20/18.
 //  Copyright © 2018 Prom. All rights reserved.
 import UIKit
@@ -14,8 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure()
-        //newDatabase = Database.database().reference()
-        //Database.setValue("fddfgfd")
+        let newDatabase = Database.database().reference()
+        newDatabase.setValue("check some data")
         // Override point for customization after application launch.
         return true
     }
