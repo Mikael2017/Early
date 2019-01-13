@@ -1,7 +1,6 @@
 // RegistrationViewController.swift
-//  Early
-// Created by annotations on 12/28/18.
-//  Copyright © 2018 Prom. All rights reserved.
+//  Created by annotations on 12/20/18.
+//  Copyright © Mikael. All rights reserved.
 import UIKit
 import Firebase
 
