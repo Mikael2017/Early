@@ -1,0 +1,6 @@
+framework module Pods_Early {
+  umbrella header "Pods-Early-umbrella.h"
+
+  export *
+  module * { export * }
+}
