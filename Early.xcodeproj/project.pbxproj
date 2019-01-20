@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960E903C21F3E782006EDD05 /* rainT.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E903B21F3E782006EDD05 /* rainT.wav */; };
+		960E903E21F3E7B9006EDD05 /* Ttera.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E903D21F3E7B9006EDD05 /* Ttera.wav */; };
+		960E904021F3EE57006EDD05 /* OcienWave.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E903F21F3EE56006EDD05 /* OcienWave.wav */; };
+		960E904221F3F4E8006EDD05 /* RainOnTent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E904121F3F4E7006EDD05 /* RainOnTent.wav */; };
 		962C59F821E47C6C0043F70D /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C59F721E47C6C0043F70D /* LogoutViewController.swift */; };
 		962C59FA21E5084F0043F70D /* soundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C59F921E5084F0043F70D /* soundsViewController.swift */; };
 		967FA97E21D5DCF9000C0466 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967FA97D21D5DCF9000C0466 /* LoginViewController.swift */; };
@@ -23,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		78CC0677363445BA306003C1 /* Pods_Early.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Early.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		960E903B21F3E782006EDD05 /* rainT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rainT.wav; sourceTree = "<group>"; };
+		960E903D21F3E7B9006EDD05 /* Ttera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ttera.wav; sourceTree = "<group>"; };
+		960E903F21F3EE56006EDD05 /* OcienWave.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = OcienWave.wav; sourceTree = "<group>"; };
+		960E904121F3F4E7006EDD05 /* RainOnTent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RainOnTent.wav; sourceTree = "<group>"; };
 		962C59F721E47C6C0043F70D /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		962C59F921E5084F0043F70D /* soundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundsViewController.swift; sourceTree = "<group>"; };
 		967FA97D21D5DCF9000C0466 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +60,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		960E903821F3E746006EDD05 /* AudioFiles */ = {
+			isa = PBXGroup;
+			children = (
+				960E904121F3F4E7006EDD05 /* RainOnTent.wav */,
+				960E903F21F3EE56006EDD05 /* OcienWave.wav */,
+				960E903D21F3E7B9006EDD05 /* Ttera.wav */,
+				960E903B21F3E782006EDD05 /* rainT.wav */,
+			);
+			path = AudioFiles;
+			sourceTree = "<group>";
+		};
 		967FA98121D5DD4D000C0466 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +128,7 @@
 				96E276F321D5AFAA00693EA5 /* background1.jpg */,
 				96E276EC21D5AE3600693EA5 /* Info.plist */,
 				96E2770921D5C74400693EA5 /* GoogleService-Info.plist */,
+				960E903821F3E746006EDD05 /* AudioFiles */,
 			);
 			path = Early;
 			sourceTree = "<group>";
@@ -192,9 +212,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E276F921D5AFAA00693EA5 /* LaunchScreen.storyboard in Resources */,
+				960E903C21F3E782006EDD05 /* rainT.wav in Resources */,
+				960E904021F3EE57006EDD05 /* OcienWave.wav in Resources */,
 				96E276FA21D5AFAA00693EA5 /* background1.jpg in Resources */,
 				96E276FC21D5AFAA00693EA5 /* Main.storyboard in Resources */,
+				960E903E21F3E7B9006EDD05 /* Ttera.wav in Resources */,
 				96E276FE21D5AFAA00693EA5 /* Assets.xcassets in Resources */,
+				960E904221F3F4E8006EDD05 /* RainOnTent.wav in Resources */,
 				96E2770A21D5C74400693EA5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
