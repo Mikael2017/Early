@@ -2,8 +2,8 @@
 //  Copyright © Mikael. All rights reserved.
 import UIKit
 
-class soundsViewController: UIViewController , UITableViewDataSource {
-    let data : [String] = ["hi", "xcxvxv", "fsdfsfdf","dsfsdfsfd"]
+class soundsViewController: UIViewController
+{
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -11,15 +11,6 @@ class soundsViewController: UIViewController , UITableViewDataSource {
         // Do any additional setup after loading the view.
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        //let cell = UITableViewCell()
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = data[indexPath.row]
-        return cell
-    }
+
     
 }
