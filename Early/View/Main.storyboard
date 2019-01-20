@@ -207,7 +207,7 @@
         <!--Item2-->
         <scene sceneID="8Cy-oE-Y42">
             <objects>
-                <viewController id="4NZ-z0-aVb" userLabel="Item2" sceneMemberID="viewController">
+                <viewController id="4NZ-z0-aVb" userLabel="Item2" customClass="mapViewController" customModule="Early" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TPt-Y0-TBa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -231,6 +231,9 @@
                         <viewLayoutGuide key="safeArea" id="ILH-GG-QpX"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="FLu-9t-MlU"/>
+                    <connections>
+                        <outlet property="mapView" destination="lZV-F9-fhi" id="JF3-O8-18e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ULA-So-kpe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -351,7 +354,6 @@
         <!--Tab Bar Controller-->
         <scene sceneID="7Mv-q6-ucj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J9k-uI-jYL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="LNw-tb-GP6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="STS-If-5Eu">
@@ -366,6 +368,7 @@
                         <segue destination="4NZ-z0-aVb" kind="relationship" relationship="viewControllers" id="cxg-1e-2fe"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J9k-uI-jYL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3126" y="70"/>
         </scene>

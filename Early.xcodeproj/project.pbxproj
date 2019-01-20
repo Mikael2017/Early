@@ -15,6 +15,7 @@
 		962C59FA21E5084F0043F70D /* soundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C59F921E5084F0043F70D /* soundsViewController.swift */; };
 		967FA97E21D5DCF9000C0466 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967FA97D21D5DCF9000C0466 /* LoginViewController.swift */; };
 		967FA98021D5DD28000C0466 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */; };
+		9683B77021F42B960037992A /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683B76F21F42B960037992A /* mapViewController.swift */; };
 		96E276F921D5AFAA00693EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F221D5AFA900693EA5 /* LaunchScreen.storyboard */; };
 		96E276FA21D5AFAA00693EA5 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F321D5AFAA00693EA5 /* background1.jpg */; };
 		96E276FC21D5AFAA00693EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F521D5AFAA00693EA5 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		962C59F921E5084F0043F70D /* soundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundsViewController.swift; sourceTree = "<group>"; };
 		967FA97D21D5DCF9000C0466 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		9683B76F21F42B960037992A /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		96E276DD21D5AE3400693EA5 /* Early.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Early.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E276EC21D5AE3600693EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96E276F221D5AFA900693EA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */,
 				962C59F721E47C6C0043F70D /* LogoutViewController.swift */,
 				962C59F921E5084F0043F70D /* soundsViewController.swift */,
+				9683B76F21F42B960037992A /* mapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				967FA97E21D5DCF9000C0466 /* LoginViewController.swift in Sources */,
 				96E276FF21D5AFAA00693EA5 /* AppDelegate.swift in Sources */,
 				967FA98021D5DD28000C0466 /* RegistrationViewController.swift in Sources */,
+				9683B77021F42B960037992A /* mapViewController.swift in Sources */,
 				962C59F821E47C6C0043F70D /* LogoutViewController.swift in Sources */,
 				96E276FD21D5AFAA00693EA5 /* WelcomViewController.swift in Sources */,
 			);
