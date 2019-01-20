@@ -248,21 +248,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CCl-4N-rNf">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dO-vO-cIA">
                                 <rect key="frame" x="295" y="26" width="80" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Logout"/>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-F9-fhi">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ILH-GG-QpX" firstAttribute="trailing" secondItem="CCl-4N-rNf" secondAttribute="trailing" id="3gz-ft-C0w"/>
-                            <constraint firstItem="CCl-4N-rNf" firstAttribute="leading" secondItem="ILH-GG-QpX" secondAttribute="leading" id="8jP-nJ-Qyk"/>
-                            <constraint firstItem="ILH-GG-QpX" firstAttribute="bottom" secondItem="CCl-4N-rNf" secondAttribute="bottom" id="Hsg-W5-MuV"/>
-                            <constraint firstItem="CCl-4N-rNf" firstAttribute="top" secondItem="ILH-GG-QpX" secondAttribute="top" id="mhp-qC-WAj"/>
+                            <constraint firstItem="ILH-GG-QpX" firstAttribute="bottom" secondItem="lZV-F9-fhi" secondAttribute="bottom" id="SbU-HM-prv"/>
+                            <constraint firstItem="lZV-F9-fhi" firstAttribute="top" secondItem="ILH-GG-QpX" secondAttribute="top" id="VsO-yX-JQK"/>
+                            <constraint firstItem="lZV-F9-fhi" firstAttribute="leading" secondItem="ILH-GG-QpX" secondAttribute="leading" id="W7d-fS-Vi0"/>
+                            <constraint firstItem="ILH-GG-QpX" firstAttribute="trailing" secondItem="lZV-F9-fhi" secondAttribute="trailing" id="wDg-L8-XFg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ILH-GG-QpX"/>
                     </view>
