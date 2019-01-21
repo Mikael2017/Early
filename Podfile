@@ -11,5 +11,6 @@ target 'Early' do
   pod 'Firebase/Auth'
   pod 'SVProgressHUD'
   pod 'ChameleonFramework'
+  pod 'SwiftyJSON'
   
 end

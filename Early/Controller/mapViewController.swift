@@ -5,8 +5,6 @@ import UIKit
 import MapKit
 class mapViewController: UIViewController
 {
-  
-    
     @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
