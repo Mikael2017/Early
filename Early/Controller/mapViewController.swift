@@ -3,6 +3,7 @@
 //Copyright © 2019 Mikael. All rights reserved.
 import UIKit
 import MapKit
+import SwiftyJSON
 class mapViewController: UIViewController
 {
     @IBOutlet weak var mapView: MKMapView!

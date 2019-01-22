@@ -176,13 +176,51 @@
         <scene sceneID="Fwz-1R-j90">
             <objects>
                 <viewController id="YFY-iZ-Voc" userLabel="tab0" customClass="soundsViewController" customModule="Early" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="J3r-ij-SkF">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="46e-ps-yWs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="3Of-af-px2"/>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SoundCell" id="8kl-Ld-WIR" customClass="soun">
+                                <rect key="frame" x="0.0" y="28" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8kl-Ld-WIR" id="3Cq-WB-xd5">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RN8-7v-QDB">
+                                            <rect key="frame" x="5" y="5" width="365" height="79.5"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Czx-0H-Lbh">
+                                            <rect key="frame" x="106" y="26" width="163" height="38"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Czx-0H-Lbh" firstAttribute="top" secondItem="3Cq-WB-xd5" secondAttribute="topMargin" constant="15" id="FWv-tx-hDw"/>
+                                        <constraint firstItem="RN8-7v-QDB" firstAttribute="top" secondItem="3Cq-WB-xd5" secondAttribute="top" constant="5" id="QZq-tO-4Yc"/>
+                                        <constraint firstItem="Czx-0H-Lbh" firstAttribute="leading" secondItem="3Cq-WB-xd5" secondAttribute="leadingMargin" constant="90" id="VQC-ga-qMu"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="Czx-0H-Lbh" secondAttribute="bottom" constant="15" id="aSH-7s-l0k"/>
+                                        <constraint firstAttribute="trailing" secondItem="RN8-7v-QDB" secondAttribute="trailing" constant="5" id="eFd-Sq-NGG"/>
+                                        <constraint firstAttribute="bottom" secondItem="RN8-7v-QDB" secondAttribute="bottom" constant="5" id="qNx-dr-myk"/>
+                                        <constraint firstItem="RN8-7v-QDB" firstAttribute="leading" secondItem="3Cq-WB-xd5" secondAttribute="leading" constant="5" id="rHr-WH-GQD"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Czx-0H-Lbh" secondAttribute="trailing" constant="90" id="zu7-Qi-5c1"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RN8-7v-QDB" id="WI1-o8-BdM"/>
+                            <outlet property="delegate" destination="Czx-0H-Lbh" id="YA9-BL-w7v"/>
+                        </connections>
+                    </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="fI6-vq-62F"/>
+                    <connections>
+                        <outlet property="image" destination="RN8-7v-QDB" id="X9V-dR-bLq"/>
+                        <outlet property="label" destination="Czx-0H-Lbh" id="yJV-YX-r6n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDU-5a-YFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -381,4 +419,5 @@
         <segue reference="rHb-90-mjo"/>
         <segue reference="1Hg-vE-4NQ"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
 </document>
