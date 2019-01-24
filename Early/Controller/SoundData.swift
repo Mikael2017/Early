@@ -1,7 +1,8 @@
 //  SoundData.swift
 //  Early
 //  Created by annotations on 1/22/19.
-//  Copyright © 2019 Prom. All rights reserved.
+//  Copyright © 2019 Mikael Arage. All rights reserved.
+
 import UIKit
 import Foundation
 
@@ -39,7 +40,7 @@ extension SoundData : UITableViewDataSource, UITableViewDelegate
     {
         return sounds.count
     }
-    
+ 
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
    {
         let sound = sounds[indexPath.row]
@@ -48,3 +49,7 @@ extension SoundData : UITableViewDataSource, UITableViewDelegate
         return cell
     }
 }
+
+
+ 
+ 
