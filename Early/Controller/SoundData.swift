@@ -1,6 +1,5 @@
 //  SoundData.swift
-//  Early
-//  Created by annotations on 1/22/19.
+//  Early : Created by annotations on 1/22/19.
 //  Copyright © 2019 Mikael Arage. All rights reserved.
 //  Contain bugs
 
@@ -24,10 +23,13 @@ class SoundData: UIViewController {
     func creatarray() -> [sound]
     {
         
-        let sound1 = sound(image : #imageLiteral(resourceName: "beginner-first-app") , title : "ocien1")
-        let sound2 = sound(image : #imageLiteral(resourceName: "beginner-first-app") , title : "TRelief1")
-        let sound3 = sound(image : #imageLiteral(resourceName: "beginner-first-app") , title : "Rain1")
-        let sound4 = sound(image : #imageLiteral(resourceName: "beginner-first-app") , title : "Rain on tent1")
+        
+        //UIImage(named: imageFile)
+        
+        let sound1 = sound(image : #imageLiteral(resourceName: <#T##String#>)ocien, title : "ocien")
+        let sound2 = sound(image : #imageLiteral(resourceName: <#T##String#>)Ttera, title : "Ttera")
+        let sound3 = sound(image : #imageLiteral(resourceName: <#T##String#>)Rain, title : "Rain")
+        let sound4 = sound(image : #imageLiteral(resourceName: <#T##String#>)RainonTent, title : "RainonTent")
         
         
          return [sound1, sound2, sound3, sound4]
@@ -50,7 +52,10 @@ extension SoundData : UITableViewDataSource, UITableViewDelegate
         cell.setSound(sound : sound) 
         return cell
     
+    }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 6
     }
 }
 
