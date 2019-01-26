@@ -2,7 +2,7 @@
 //  Early
 //  Created by annotations on 1/22/19.
 //  Copyright © 2019 Mikael Arage. All rights reserved.
-//has bugs
+//  Contain bugs
 
 
 import UIKit
