@@ -2,6 +2,8 @@
 //  Early
 //  Created by annotations on 1/22/19.
 //  Copyright © 2019 Mikael Arage. All rights reserved.
+//has bugs
+
 
 import UIKit
 import Foundation
@@ -45,8 +47,10 @@ extension SoundData : UITableViewDataSource, UITableViewDelegate
    {
         let sound = sounds[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "SoundCell") as! SoundCell
-        cell.setSound(sound : sound)
+        cell.setSound(sound : sound) 
         return cell
+    
+    
     }
 }
 
