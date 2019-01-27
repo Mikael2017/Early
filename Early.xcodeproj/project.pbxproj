@@ -12,19 +12,14 @@
 		960E904021F3EE57006EDD05 /* OcienWave.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E903F21F3EE56006EDD05 /* OcienWave.wav */; };
 		960E904221F3F4E8006EDD05 /* RainOnTent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E904121F3F4E7006EDD05 /* RainOnTent.wav */; };
 		962C59F821E47C6C0043F70D /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C59F721E47C6C0043F70D /* LogoutViewController.swift */; };
-		962C59FA21E5084F0043F70D /* soundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C59F921E5084F0043F70D /* soundsViewController.swift */; };
-		964C75B021F6B5CF009F2035 /* RainOnTent.png in Resources */ = {isa = PBXBuildFile; fileRef = 964C75AC21F6B5CE009F2035 /* RainOnTent.png */; };
-		964C75B121F6B5CF009F2035 /* ocien.png in Resources */ = {isa = PBXBuildFile; fileRef = 964C75AD21F6B5CE009F2035 /* ocien.png */; };
-		964C75B221F6B5CF009F2035 /* Rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 964C75AE21F6B5CE009F2035 /* Rain.png */; };
-		964C75B321F6B5CF009F2035 /* Ttera.png in Resources */ = {isa = PBXBuildFile; fileRef = 964C75AF21F6B5CF009F2035 /* Ttera.png */; };
-		964C75B521F6D59B009F2035 /* SoundData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964C75B421F6D59B009F2035 /* SoundData.swift */; };
 		964C75B721F6D674009F2035 /* sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964C75B621F6D674009F2035 /* sound.swift */; };
 		967FA97E21D5DCF9000C0466 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967FA97D21D5DCF9000C0466 /* LoginViewController.swift */; };
 		967FA98021D5DD28000C0466 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */; };
 		9683B77021F42B960037992A /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683B76F21F42B960037992A /* mapViewController.swift */; };
 		9683B77221F442380037992A /* venus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683B77121F442380037992A /* venus.swift */; };
+		96897A0321FDDA3600D10929 /* SoundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96897A0221FDDA3600D10929 /* SoundTableViewController.swift */; };
+		96897A0521FDDACF00D10929 /* SoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96897A0421FDDACF00D10929 /* SoundTableViewCell.swift */; };
 		96E276F921D5AFAA00693EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F221D5AFA900693EA5 /* LaunchScreen.storyboard */; };
-		96E276FA21D5AFAA00693EA5 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F321D5AFAA00693EA5 /* background1.png */; };
 		96E276FC21D5AFAA00693EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F521D5AFAA00693EA5 /* Main.storyboard */; };
 		96E276FD21D5AFAA00693EA5 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E276F621D5AFAA00693EA5 /* WelcomViewController.swift */; };
 		96E276FE21D5AFAA00693EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F721D5AFAA00693EA5 /* Assets.xcassets */; };
@@ -40,21 +35,16 @@
 		960E903F21F3EE56006EDD05 /* OcienWave.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = OcienWave.wav; sourceTree = "<group>"; };
 		960E904121F3F4E7006EDD05 /* RainOnTent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RainOnTent.wav; sourceTree = "<group>"; };
 		962C59F721E47C6C0043F70D /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
-		962C59F921E5084F0043F70D /* soundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundsViewController.swift; sourceTree = "<group>"; };
-		964C75AC21F6B5CE009F2035 /* RainOnTent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RainOnTent.png; sourceTree = "<group>"; };
-		964C75AD21F6B5CE009F2035 /* ocien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ocien.png; sourceTree = "<group>"; };
-		964C75AE21F6B5CE009F2035 /* Rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rain.png; sourceTree = "<group>"; };
-		964C75AF21F6B5CF009F2035 /* Ttera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ttera.png; sourceTree = "<group>"; };
-		964C75B421F6D59B009F2035 /* SoundData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundData.swift; sourceTree = "<group>"; };
 		964C75B621F6D674009F2035 /* sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound.swift; sourceTree = "<group>"; };
 		967FA97D21D5DCF9000C0466 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		9683B76F21F42B960037992A /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		9683B77121F442380037992A /* venus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venus.swift; sourceTree = "<group>"; };
+		96897A0221FDDA3600D10929 /* SoundTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTableViewController.swift; sourceTree = "<group>"; };
+		96897A0421FDDACF00D10929 /* SoundTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTableViewCell.swift; sourceTree = "<group>"; };
 		96E276DD21D5AE3400693EA5 /* Early.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Early.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E276EC21D5AE3600693EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96E276F221D5AFA900693EA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96E276F321D5AFAA00693EA5 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
 		96E276F521D5AFAA00693EA5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		96E276F621D5AFAA00693EA5 /* WelcomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomViewController.swift; sourceTree = "<group>"; };
 		96E276F721D5AFAA00693EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,11 +101,11 @@
 				967FA97D21D5DCF9000C0466 /* LoginViewController.swift */,
 				967FA97F21D5DD28000C0466 /* RegistrationViewController.swift */,
 				962C59F721E47C6C0043F70D /* LogoutViewController.swift */,
-				962C59F921E5084F0043F70D /* soundsViewController.swift */,
 				9683B76F21F42B960037992A /* mapViewController.swift */,
 				9683B77121F442380037992A /* venus.swift */,
-				964C75B421F6D59B009F2035 /* SoundData.swift */,
 				964C75B621F6D674009F2035 /* sound.swift */,
+				96897A0221FDDA3600D10929 /* SoundTableViewController.swift */,
+				96897A0421FDDACF00D10929 /* SoundTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -145,11 +135,6 @@
 				967FA98221D5DD55000C0466 /* View */,
 				967FA98321D5DD5B000C0466 /* Controller */,
 				96E276F721D5AFAA00693EA5 /* Assets.xcassets */,
-				964C75AD21F6B5CE009F2035 /* ocien.png */,
-				964C75AE21F6B5CE009F2035 /* Rain.png */,
-				964C75AC21F6B5CE009F2035 /* RainOnTent.png */,
-				964C75AF21F6B5CF009F2035 /* Ttera.png */,
-				96E276F321D5AFAA00693EA5 /* background1.png */,
 				96E276EC21D5AE3600693EA5 /* Info.plist */,
 				96E2770921D5C74400693EA5 /* GoogleService-Info.plist */,
 				960E903821F3E746006EDD05 /* AudioFiles */,
@@ -238,13 +223,8 @@
 				96E276F921D5AFAA00693EA5 /* LaunchScreen.storyboard in Resources */,
 				960E903C21F3E782006EDD05 /* rainT.wav in Resources */,
 				960E904021F3EE57006EDD05 /* OcienWave.wav in Resources */,
-				96E276FA21D5AFAA00693EA5 /* background1.png in Resources */,
 				96E276FC21D5AFAA00693EA5 /* Main.storyboard in Resources */,
-				964C75B321F6B5CF009F2035 /* Ttera.png in Resources */,
-				964C75B221F6B5CF009F2035 /* Rain.png in Resources */,
-				964C75B021F6B5CF009F2035 /* RainOnTent.png in Resources */,
 				960E903E21F3E7B9006EDD05 /* Ttera.wav in Resources */,
-				964C75B121F6B5CF009F2035 /* ocien.png in Resources */,
 				96E276FE21D5AFAA00693EA5 /* Assets.xcassets in Resources */,
 				960E904221F3F4E8006EDD05 /* RainOnTent.wav in Resources */,
 				96E2770A21D5C74400693EA5 /* GoogleService-Info.plist in Resources */,
@@ -317,16 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962C59FA21E5084F0043F70D /* soundsViewController.swift in Sources */,
 				967FA97E21D5DCF9000C0466 /* LoginViewController.swift in Sources */,
 				96E276FF21D5AFAA00693EA5 /* AppDelegate.swift in Sources */,
 				967FA98021D5DD28000C0466 /* RegistrationViewController.swift in Sources */,
+				96897A0321FDDA3600D10929 /* SoundTableViewController.swift in Sources */,
 				9683B77021F42B960037992A /* mapViewController.swift in Sources */,
 				964C75B721F6D674009F2035 /* sound.swift in Sources */,
 				962C59F821E47C6C0043F70D /* LogoutViewController.swift in Sources */,
-				964C75B521F6D59B009F2035 /* SoundData.swift in Sources */,
 				96E276FD21D5AFAA00693EA5 /* WelcomViewController.swift in Sources */,
 				9683B77221F442380037992A /* venus.swift in Sources */,
+				96897A0521FDDACF00D10929 /* SoundTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

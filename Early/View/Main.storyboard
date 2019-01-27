@@ -175,13 +175,13 @@
         <!--tab0-->
         <scene sceneID="Fwz-1R-j90">
             <objects>
-                <viewController id="YFY-iZ-Voc" userLabel="tab0" customClass="soundsViewController" customModule="Early" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YFY-iZ-Voc" userLabel="tab0" customClass="SoundTableViewController" customModule="Early" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="46e-ps-yWs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SoundCell" id="8kl-Ld-WIR" customClass="soun">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SoundTableViewCell" id="8kl-Ld-WIR" customClass="SoundTableViewCell" customModule="Early" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8kl-Ld-WIR" id="3Cq-WB-xd5">
@@ -209,18 +209,18 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="Czx-0H-Lbh" secondAttribute="trailing" constant="90" id="zu7-Qi-5c1"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="soundImage" destination="RN8-7v-QDB" id="2gb-zt-Uam"/>
+                                    <outlet property="soundName" destination="Czx-0H-Lbh" id="4lf-Hc-QJP"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="RN8-7v-QDB" id="WI1-o8-BdM"/>
-                            <outlet property="delegate" destination="Czx-0H-Lbh" id="YA9-BL-w7v"/>
+                            <outlet property="dataSource" destination="YFY-iZ-Voc" id="a1w-S2-evH"/>
+                            <outlet property="delegate" destination="YFY-iZ-Voc" id="pes-eG-3f9"/>
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="fI6-vq-62F"/>
-                    <connections>
-                        <outlet property="image" destination="RN8-7v-QDB" id="X9V-dR-bLq"/>
-                        <outlet property="label" destination="Czx-0H-Lbh" id="yJV-YX-r6n"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDU-5a-YFE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
