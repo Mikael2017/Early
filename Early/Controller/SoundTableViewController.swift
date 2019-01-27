@@ -1,10 +1,8 @@
-//
 //  SoundTableViewController.swift
 //  Early
-//
 //  Created by annotations on 1/27/19.
-//  Copyright © 2019 Prom. All rights reserved.
-//
+//  Copyright © 2019 Mikael Arage. All rights reserved.
+
 
 import UIKit
 
@@ -23,11 +21,13 @@ class SoundTableViewController: UITableViewController {
     }
 
     func createSounds() -> [sound] {
-        let sound1 = sound(image : UIImage(named: "ocien.png")!, title : "ocien")
-        let sound2 = sound(image : UIImage(named: "Ttera.png")!, title : "Ttera")
-        let sound3 = sound(image : UIImage(named: "Rain.png")!, title : "Rain")
-        let sound4 = sound(image : UIImage(named: "RainOnTent")!, title : "RainonTent")
-        return [sound1, sound2, sound3, sound4]
+        let sound1 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien")
+        let sound2 = sound(image : UIImage(named: "Ttera.png")!, title : "Terapuetic")
+        let sound3 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the Wild")
+        let sound4 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent")
+        let sound5 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the forest ")
+        let sound6 = sound(image : UIImage(named: "RainOnTent")!, title : "Birds on the move")
+        return [sound1, sound2, sound3, sound4,sound5,sound6]
     }
 }
 

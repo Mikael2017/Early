@@ -1,8 +1,7 @@
-//
-//  venus.swift
+// venus.swift
 //  Early
 //Created by annotations on 1/20/19.
-//  Copyright © 2019 Prom. All rights reserved.
+//  Copyright © 2019 Mikael Arage. All rights reserved.
 import MapKit
 import AddressBook
 import SwiftyJSON

@@ -1,5 +1,4 @@
-//
-//  LogoutViewController.swift
+//LogoutViewController.swift
 //  Early
 //  Created by annotations on 12/20/18.
 //  Copyright © Mikael. All rights reserved.
