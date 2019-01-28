@@ -9,8 +9,8 @@ import UIKit
 class SoundTableViewCell: UITableViewCell {
 
     @IBOutlet weak var soundName: UILabel!
-    
     @IBOutlet weak var soundImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

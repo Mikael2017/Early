@@ -33,6 +33,10 @@ class SoundTableViewController: UITableViewController {
 
 extension SoundTableViewController
 {
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 180
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return sounds.count
