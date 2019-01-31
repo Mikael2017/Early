@@ -3,7 +3,6 @@
 //  Created by annotations on 1/27/19.
 //  Copyright © 2019 Mikael Arage. All rights reserved.
 
-
 import UIKit
 
 class SoundTableViewController: UITableViewController {
@@ -23,7 +22,7 @@ class SoundTableViewController: UITableViewController {
     func createSounds() -> [sound] {
         let sound1 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien")
         let sound2 = sound(image : UIImage(named: "Ttera.png")!, title : "Terapuetic")
-        let sound3 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the Wild")
+        let sound3 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the zoo")
         let sound4 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent")
         let sound5 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the forest ")
         let sound6 = sound(image : UIImage(named: "RainOnTent")!, title : "Birds on the move")
@@ -34,7 +33,7 @@ class SoundTableViewController: UITableViewController {
 extension SoundTableViewController
 {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 180
+        return 170
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
