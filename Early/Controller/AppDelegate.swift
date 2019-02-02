@@ -11,6 +11,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    
+    // Test if the file exist
+    /*let path = Bundle.main.path(forResource: "RainOnTent" , ofType: "wav")
+    print(path!)  */
+    
         FirebaseApp.configure()
         let newDatabase = Database.database().reference()
         newDatabase.setValue("check some data")

@@ -191,22 +191,6 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RN8-7v-QDB">
                                             <rect key="frame" x="5" y="5" width="365" height="79.5"/>
                                         </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vez-z0-EUC">
-                                            <rect key="frame" x="257" y="53" width="43" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Retart"/>
-                                            <connections>
-                                                <action selector="Restart:" destination="8kl-Ld-WIR" eventType="touchUpInside" id="Zek-Zf-2yC"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olU-7Y-zPJ">
-                                            <rect key="frame" x="177" y="51" width="42" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Pause"/>
-                                            <connections>
-                                                <action selector="Pause:" destination="8kl-Ld-WIR" eventType="touchUpInside" id="iIl-Qm-eS2"/>
-                                            </connections>
-                                        </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Czx-0H-Lbh">
                                             <rect key="frame" x="117" y="5" width="163" height="38"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -214,14 +198,6 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSk-2e-r2K">
-                                            <rect key="frame" x="96" y="54" width="30" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Play"/>
-                                            <connections>
-                                                <action selector="playSound:" destination="8kl-Ld-WIR" eventType="touchUpInside" id="RaE-t4-Iex"/>
-                                            </connections>
-                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="RN8-7v-QDB" firstAttribute="top" secondItem="3Cq-WB-xd5" secondAttribute="top" constant="5" id="QZq-tO-4Yc"/>

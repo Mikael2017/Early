@@ -81,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				9683B77121F442380037992A /* venus.swift */,
-				96897A0421FDDACF00D10929 /* SoundTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +97,7 @@
 		967FA98321D5DD5B000C0466 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				96897A0421FDDACF00D10929 /* SoundTableViewCell.swift */,
 				96E276F821D5AFAA00693EA5 /* AppDelegate.swift */,
 				96E276F621D5AFAA00693EA5 /* WelcomViewController.swift */,
 				967FA97D21D5DCF9000C0466 /* LoginViewController.swift */,

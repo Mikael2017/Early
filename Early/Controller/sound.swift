@@ -10,10 +10,15 @@ class sound {
 
     var image : UIImage
     var title : String
-    init(image : UIImage, title : String)
+    var soundFileName : String
+    var thumbnailFilename : String
+    
+    init(image : UIImage, title : String, soundFileName : String , thumbnailFilename : String)
     {
         self.image = image
         self.title = title
+        self.soundFileName = soundFileName
+        self.thumbnailFilename = thumbnailFilename
     }
     
     

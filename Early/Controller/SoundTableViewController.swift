@@ -4,10 +4,15 @@
 //  Copyright © 2019 Mikael Arage. All rights reserved.
 
 import UIKit
+import AVKit
+import AVFoundation
 
 class SoundTableViewController: UITableViewController {
     
     var sounds : [sound] = []
+    var soundFiles = ["RainOnTent" , "OcienWave" , "Ttera" , "rainT"]
+    var player = AVPlayer()
+    var PlayerViewController = AVPlayerViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,12 +25,12 @@ class SoundTableViewController: UITableViewController {
     }
 
     func createSounds() -> [sound] {
-        let sound1 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien")
-        let sound2 = sound(image : UIImage(named: "Ttera.png")!, title : "Terapuetic")
-        let sound3 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the zoo")
-        let sound4 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent")
-        let sound5 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the forest ")
-        let sound6 = sound(image : UIImage(named: "RainOnTent")!, title : "Birds on the move")
+        let sound1 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
+        let sound2 = sound(image : UIImage(named: "Ttera.png")!, title : "Terapuetic", soundFileName : "OcienWave" , thumbnailFilename : "OcienWave")
+        let sound3 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the zoo", soundFileName : "Ttera" , thumbnailFilename : "Ttera")
+        let sound4 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent" , soundFileName : "rainT" , thumbnailFilename : "rainT")
+        let sound5 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent" , soundFileName : "rainT" , thumbnailFilename : "rainT")
+        let sound6 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent" , soundFileName : "rainT" , thumbnailFilename : "rainT")
         return [sound1, sound2, sound3, sound4,sound5,sound6]
     }
 }
@@ -50,7 +55,24 @@ extension SoundTableViewController
         return cell
         
     }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        tableView.deselectRow(at: indexPath, animated: true)
+        playSound(at: indexPath)
+        
+    }
     
+    func playSound(at indexPath : IndexPath)
+    {
+        let selectedSound = sounds[indexPath.row]
+        let soundPath = Bundle.main.path(forResource: selectedSound.soundFileName , ofType: "wav")
+        let soundPathURL = URL(fileURLWithPath: soundPath!)
+        player = AVPlayer(url: soundPathURL)
+        PlayerViewController.player = player
+        self.present(PlayerViewController, animated : true, completion : {
+            self.PlayerViewController.player?.play()
+        })
+    }
     
 }
 
