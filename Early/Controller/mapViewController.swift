@@ -11,6 +11,7 @@ class mapViewController: UIViewController
         super.viewDidLoad()
         let initialLocation = CLLocation(latitude: 60.1699, longitude: 24.9384)
         ZoomMapOn(location : initialLocation)
+        //Venue
         let earSpecialistVenues = venus(title: "Helsinki Ear Institute", locationName: "Halsuantie 1, 00420 Helsinki", coordinate: CLLocationCoordinate2D(latitude: 60.237630, longitude: 24.885220))
         mapView.addAnnotation(earSpecialistVenues)
         mapView.delegate = self
@@ -44,7 +45,7 @@ extension mapViewController : MKMapViewDelegate
     view.rightCalloutAccessoryView = UIButton(type : .detailDisclosure) as UIView
     
                 }
-       return view
+       return view 
     
           }
       return nil
