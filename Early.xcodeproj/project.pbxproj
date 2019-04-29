@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		960E903C21F3E782006EDD05 /* rainT.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E903B21F3E782006EDD05 /* rainT.wav */; };
 		960E903E21F3E7B9006EDD05 /* Ttera.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E903D21F3E7B9006EDD05 /* Ttera.wav */; };
-		960E904021F3EE57006EDD05 /* OcienWave.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E903F21F3EE56006EDD05 /* OcienWave.wav */; };
 		960E904221F3F4E8006EDD05 /* RainOnTent.wav in Resources */ = {isa = PBXBuildFile; fileRef = 960E904121F3F4E7006EDD05 /* RainOnTent.wav */; };
 		962C59F821E47C6C0043F70D /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962C59F721E47C6C0043F70D /* LogoutViewController.swift */; };
 		964C75B721F6D674009F2035 /* sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964C75B621F6D674009F2035 /* sound.swift */; };
@@ -19,6 +18,7 @@
 		9683B77221F442380037992A /* venus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9683B77121F442380037992A /* venus.swift */; };
 		96897A0321FDDA3600D10929 /* SoundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96897A0221FDDA3600D10929 /* SoundTableViewController.swift */; };
 		96897A0521FDDACF00D10929 /* SoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96897A0421FDDACF00D10929 /* SoundTableViewCell.swift */; };
+		96AF75D52249123B00570A80 /* venues.json in Resources */ = {isa = PBXBuildFile; fileRef = 96AF75D42249123B00570A80 /* venues.json */; };
 		96E276F921D5AFAA00693EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F221D5AFA900693EA5 /* LaunchScreen.storyboard */; };
 		96E276FC21D5AFAA00693EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E276F521D5AFAA00693EA5 /* Main.storyboard */; };
 		96E276FD21D5AFAA00693EA5 /* WelcomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E276F621D5AFAA00693EA5 /* WelcomViewController.swift */; };
@@ -32,7 +32,6 @@
 		78CC0677363445BA306003C1 /* Pods_Early.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Early.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		960E903B21F3E782006EDD05 /* rainT.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rainT.wav; sourceTree = "<group>"; };
 		960E903D21F3E7B9006EDD05 /* Ttera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ttera.wav; sourceTree = "<group>"; };
-		960E903F21F3EE56006EDD05 /* OcienWave.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = OcienWave.wav; sourceTree = "<group>"; };
 		960E904121F3F4E7006EDD05 /* RainOnTent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RainOnTent.wav; sourceTree = "<group>"; };
 		962C59F721E47C6C0043F70D /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		964C75B621F6D674009F2035 /* sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound.swift; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		9683B77121F442380037992A /* venus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venus.swift; sourceTree = "<group>"; };
 		96897A0221FDDA3600D10929 /* SoundTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTableViewController.swift; sourceTree = "<group>"; };
 		96897A0421FDDACF00D10929 /* SoundTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTableViewCell.swift; sourceTree = "<group>"; };
+		96AF75D42249123B00570A80 /* venues.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = venues.json; path = ../../../Downloads/venues.json; sourceTree = "<group>"; };
 		96E276DD21D5AE3400693EA5 /* Early.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Early.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E276EC21D5AE3600693EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96E276F221D5AFA900693EA5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				960E904121F3F4E7006EDD05 /* RainOnTent.wav */,
-				960E903F21F3EE56006EDD05 /* OcienWave.wav */,
 				960E903D21F3E7B9006EDD05 /* Ttera.wav */,
 				960E903B21F3E782006EDD05 /* rainT.wav */,
 			);
@@ -131,6 +130,7 @@
 		96E276DF21D5AE3400693EA5 /* Early */ = {
 			isa = PBXGroup;
 			children = (
+				96AF75D42249123B00570A80 /* venues.json */,
 				967FA98121D5DD4D000C0466 /* Model */,
 				967FA98221D5DD55000C0466 /* View */,
 				967FA98321D5DD5B000C0466 /* Controller */,
@@ -222,9 +222,9 @@
 			files = (
 				96E276F921D5AFAA00693EA5 /* LaunchScreen.storyboard in Resources */,
 				960E903C21F3E782006EDD05 /* rainT.wav in Resources */,
-				960E904021F3EE57006EDD05 /* OcienWave.wav in Resources */,
 				96E276FC21D5AFAA00693EA5 /* Main.storyboard in Resources */,
 				960E903E21F3E7B9006EDD05 /* Ttera.wav in Resources */,
+				96AF75D52249123B00570A80 /* venues.json in Resources */,
 				96E276FE21D5AFAA00693EA5 /* Assets.xcassets in Resources */,
 				960E904221F3F4E8006EDD05 /* RainOnTent.wav in Resources */,
 				96E2770A21D5C74400693EA5 /* GoogleService-Info.plist in Resources */,

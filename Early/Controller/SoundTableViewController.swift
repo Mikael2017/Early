@@ -26,12 +26,19 @@ class SoundTableViewController: UITableViewController {
 
     func createSounds() -> [sound] {
         let sound1 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
-        let sound2 = sound(image : UIImage(named: "Ttera.png")!, title : "Terapuetic", soundFileName : "OcienWave" , thumbnailFilename : "OcienWave")
+        let sound2 = sound(image : UIImage(named: "Ttera.png")!, title : "Terapuetic", soundFileName : "rainT" , thumbnailFilename : "OcienWave")
         let sound3 = sound(image : UIImage(named: "Rain.png")!, title : "Rain in the zoo", soundFileName : "Ttera" , thumbnailFilename : "Ttera")
         let sound4 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent" , soundFileName : "rainT" , thumbnailFilename : "rainT")
         let sound5 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent" , soundFileName : "rainT" , thumbnailFilename : "rainT")
         let sound6 = sound(image : UIImage(named: "RainOnTent")!, title : "Rain on Tent" , soundFileName : "rainT" , thumbnailFilename : "rainT")
-        return [sound1, sound2, sound3, sound4,sound5,sound6]
+        let sound7 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
+        let sound8 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
+        let sound9 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
+        let sound10 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
+        let sound11 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
+        let sound12 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
+        let sound13 = sound(image : UIImage(named: "ocien.png")!, title : "Ocien" , soundFileName : "RainOnTent" , thumbnailFilename : "RainOnTent")
+        return [sound1, sound2, sound3, sound4,sound5,sound6,sound7,sound8, sound9,sound10,sound11, sound12]
     }
 }
 
