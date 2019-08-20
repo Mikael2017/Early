@@ -26,6 +26,8 @@ class SoundTableViewController: UITableViewController {
         NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: self.player.currentItem, queue: .main) { [weak self] _ in
             self?.player.seek(to: CMTime.zero)
             self?.player.play()
+            
+            
         }
         
     }
@@ -86,7 +88,7 @@ extension SoundTableViewController
     
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         //animation 1
-        /*
+        
         let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
         cell.layer.transform = rotationTransform
         
@@ -94,7 +96,7 @@ extension SoundTableViewController
             cell.layer.transform = CATransform3DIdentity
             
         }
- */
+ 
     }
     
 }
