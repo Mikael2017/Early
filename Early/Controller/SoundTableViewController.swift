@@ -22,6 +22,12 @@ class SoundTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: self.player.currentItem, queue: .main) { [weak self] _ in
+            self?.player.seek(to: CMTime.zero)
+            self?.player.play()
+        }
+        
     }
 
     func createSounds() -> [sound] {
@@ -69,14 +75,18 @@ extension SoundTableViewController
         let soundPathURL = URL(fileURLWithPath: soundPath!)
         player = AVPlayer(url: soundPathURL)
         PlayerViewController.player = player
-        self.present(PlayerViewController, animated : true, completion : {
+        let view = UIImageView(image: selectedSound.image)
+        // add constraints to the view
+        PlayerViewController.contentOverlayView?.addSubview(view)
+            
+        self.present(PlayerViewController, animated: true, completion : {
             self.PlayerViewController.player?.play()
         })
     }
     
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         //animation 1
-        
+        /*
         let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
         cell.layer.transform = rotationTransform
         
@@ -84,6 +94,7 @@ extension SoundTableViewController
             cell.layer.transform = CATransform3DIdentity
             
         }
+ */
     }
     
 }
